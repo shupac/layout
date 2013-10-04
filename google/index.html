@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
   </head>
   <body>
     <div id='container'>
@@ -28,6 +29,16 @@
 
       <div id='footer'>
       </div>
+      <script>
+      $(document).ready(function() {
+        $('.search').focusin(function() {
+          $(this).css({'border-color':'#4d90fe'});
+        });
+        $('.search').focusout(function() {
+          $(this).css({'border-color':'lightgray'})
+        })
+      })
+      </script>
     </div>
   </body>
 </html>

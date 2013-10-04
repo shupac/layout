@@ -47,7 +47,15 @@ img.logo {
   margin: 0 auto;
   width: 570px;
   height: 28px;
-  border: 1px solid #4d90fe;
+  border: 1px solid lightgray;
+}
+
+.search:hover {
+  border-color: gray;
+}
+
+.clickSearch {
+  border-color: #4d90fe;
 }
 
 .input {
