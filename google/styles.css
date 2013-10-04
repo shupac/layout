@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+*:focus{
+  outline: none;
+}
+
 #container {
   min-height: 100%;
   position: relative;
@@ -50,7 +54,7 @@ img.logo {
   width: 523px;
   height: 20px;
   font: 16px arial,sans-serif;
-  margin-top: 2px;
+  margin-top: 4px;
   border: none;
   background-color: transparent;
 }
@@ -76,7 +80,24 @@ img.logo {
   no-repeat center;
 }
 
+.buttons {
+  margin: 0 auto;
+  text-align: center;
+}
 
+.buttonLeft {
+  width: 96px;
+  height: 29px;
+  margin: 16px 8px;
+  background-color: yellow;
+}
+
+.buttonRight {
+  width: 111px;
+  height: 29px;
+  margin: 16px 8px;
+  background-color: yellow;
+}
 
 
 
