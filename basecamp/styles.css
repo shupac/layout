@@ -1,3 +1,142 @@
 body{
-  /* rules go here */
+  font-family: "Proxima Nova", "Helvetica Neue", helvetica, arial, sans-serif;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container { 
+  margin: 0 auto;
+  /*text-align: center;*/
+  max-width: 1000px;
+}
+
+header {
+  /*background-color: blue;*/
+  height: 80px;
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+  font-size: 14px;
+}
+
+.login {
+  width: 50px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.links {
+  text-align: center;
+  line-height: 40%;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.links a {
+  font-weight: bold;
+}
+
+.welcome {
+  padding: 0 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.signup {
+  width: 400px;
+  height: 587px;
+  border: 4px solid black;
+  border-radius: 20px;
+}
+
+.joy {
+  margin-left: 100px;
+}
+
+.blurb {
+  margin: 30px 0 20px 80px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.blurb p{
+  font-size: 13px;
+}
+.content {
+  border-bottom: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
